@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Edición de elementos de diseño Web</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    
+    body {
+      /* Fondo */
+      background-image: linear-gradient(rgba(5, 7, 12, 0.75),rgba(5, 7, 12, 0.75)), 
+      url('https://img.freepik.com/vector-gratis/fondo-geometrico_53876-115958.jpg'); /* Reemplaza 'fondo_edificios.jpg' con la URL o ruta de tu imagen de edificios */
+      background-size: cover;
+      background-position: center;
+    }
+    header {
+      background-color: #e84a5f;
+      color: #2a363b;
+      padding: 20px;
+      text-align: center;
+      position: relative;
+      z-index: 2;
+    }
+    footer {
+      background-color: #2a363b;
+      color: #ff847c;
+      padding: 20px;
+      text-align: center;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      z-index: 2;
+    }
+    .container {
+      margin-top: 50px;
+      position: relative;
+      z-index: 2;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Encabezado -->
+  <header>
+    <h1 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Edición de 2D a 3D</h1>
+    <span class="icon"><i class="fas fa-cube"></i></span>  
+</header>
+
+  <!-- Contenido principal con Bootstrap -->
+
+  <div class="container">
+    <div class="row">
+
+      <!-- Sección izquierda -->
+      <div class="col-md-6">
+        <img src="IMAGEN1.png" alt="Logotipo" class="img-fluid">
+        <p style="font-family: Arial; color: beige;">Boton central apagado</p>
+      </div>
+
+      <!-- Sección derecha -->
+      <div class="col-md-6">
+        <img src="IMAGEN2.png" alt="Imagen Derecha" class="img-fluid">
+        <p style="font-family: Arial; color: beige;"> Boton central encendido</p>
+      </div>
+
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2023 Cit Martínez</p>
+  </footer>
+
+  <!-- Scripts de Bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
